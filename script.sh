@@ -12,5 +12,5 @@ cd -
 #docker tag httpd:devproject8 ganesh891/httpd_08_image
 #docker run -dit --name job8 -p 80:80 ganesh891/httpd_08_image
 #sleep 5
-docker cp /tmp/workspace/devproject/index.html job7:/usr/local/apache2/htdocs/
+docker cp /tmp/workspace/devproject/index.html job8:/usr/local/apache2/htdocs/
 
